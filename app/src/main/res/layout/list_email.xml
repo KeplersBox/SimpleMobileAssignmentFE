@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:elevation="5dp">
+<!--  Single List Item Design -->
+
+    <ImageView
+        android:id="@+id/email_sender_photo"
+        android:layout_width="70dp"
+        android:layout_height="90dp"
+        android:paddingTop="10dip"
+        android:paddingLeft="10dip"
+        android:src="@drawable/profile"/>
+
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="10dip"
+        android:paddingLeft="10dp">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:id="@+id/email_from"/>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/email_subject"
+            android:maxLength="50"/>
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/email_body"
+            android:maxLength="50"/>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#d9d7d7"
+            android:layout_marginTop="22dp"/>
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+
+ </LinearLayout>

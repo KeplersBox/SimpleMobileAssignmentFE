@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">KeplersBox</string>
+
+    <!--SignIn-->
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="confirm_password_hint">Confirm Password</string>
+    <string name="login">Login</string>
+    <string name="create_account">Create Account</string>
+    <string name="no_account_yet">No account yet?\u0020</string>
+    <string name="already_member">Already a member?\u0020</string>
+
+
+    <string name="title">KeplersBox</string>
+    <string name="dashboard_title">Inbox</string>
+    
+
+    <string name="emailerror">Enter a valid email</string>
+    <string name="passwordDidntMatch">Password Didn\'t Match</string>
+    <string name="dialog_message">User name or password incorrect</string>
+    <string name="dialog_title">Login Error</string>
+
+    <string name="dummy_from">Elon Musk</string>
+    <string name="dummy_subject">Hi Kibrom could you help with something</string>
+    <string name="dummy_body">SpaceX is revolutionizing terrestrial transportation through its Hyperloop services. The company currently provides these services to innovators and universities across the world interested in high-speed transportation technology and solutions. The Hyperloop system built by SpaceX at its headquarters in Hawthorne</string>
+
+</resources>
